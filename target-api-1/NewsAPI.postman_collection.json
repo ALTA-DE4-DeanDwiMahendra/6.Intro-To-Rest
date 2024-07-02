@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "4bd45e0c-9dd0-4f58-9d6d-bb06e26b3e51",
+		"name": "NewsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36665118"
+	},
+	"item": [
+		{
+			"name": "Get Key Value Apple",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{NewsAPI}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Apple",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Apple"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Key Value Tesla",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{NewsAPI}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Tesla",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Tesla"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Key Value All Article",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer {{NewsAPI}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?domains=techcrunch.com",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "domains",
+							"value": "techcrunch.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Key Value Bitcoin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer {{NewsAPI}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Bitcoin",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Bitcoin"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Key Value Android",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer {{NewsAPI}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Android",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Android"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

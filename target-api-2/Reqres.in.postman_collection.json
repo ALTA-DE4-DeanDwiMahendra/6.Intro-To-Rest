@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "e4e4e2b3-8a2a-43bb-b4b4-e22d79ebc62a",
+		"name": "Reqres.in",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36665118"
+	},
+	"item": [
+		{
+			"name": "User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/users?page=2",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/users/2",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single User Not Found",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/users/23",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"users",
+						"23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List <Request>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/unknown",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"unknown"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single <Request>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/unknown",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"unknown"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/users",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}api/users/2",
+					"host": [
+						"{{Reqres}}api"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

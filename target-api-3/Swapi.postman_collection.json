@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "fd8d88dc-dd30-4a44-af50-de71d7c35834",
+		"name": "Swapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36665118"
+	},
+	"item": [
+		{
+			"name": "People",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Swapi}}people/1",
+					"host": [
+						"{{Swapi}}people"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Swapi}}planets/3",
+					"host": [
+						"{{Swapi}}planets"
+					],
+					"path": [
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Swapi}}films/",
+					"host": [
+						"{{Swapi}}films"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Swapi}}species/",
+					"host": [
+						"{{Swapi}}species"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Swapi}}vehicles/",
+					"host": [
+						"{{Swapi}}vehicles"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
